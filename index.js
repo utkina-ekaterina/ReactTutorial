@@ -1,5 +1,19 @@
+function MainContent() {
+    return (
+        <h1>I'm learning React</h1>
+    )
+}
+
+function Navbar() {
+    return (
+        <h2>I'm learning React too</h2>
+    )
+}
 
 ReactDOM.render(
-    <ul>days of the week:<li>monday</li><li>tuesday</li><li>wednesday</li><li>thursday</li><li>friday</li><li>saturday</li><li>sunday</li></ul>, 
+    <div>
+        <Navbar />
+        <MainContent />
+    </div>,
     document.getElementById("root")
-    )
+)
